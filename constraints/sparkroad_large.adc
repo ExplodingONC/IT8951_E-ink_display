@@ -1,0 +1,60 @@
+###clock_pins--------------------------------------------------
+set_pin_assignment {clk_in} { LOCATION = K14; }
+
+###uart_pins--------------------------------------------------
+set_pin_assignment {uart_tx} { LOCATION = E16;  }
+set_pin_assignment {uart_rx} { LOCATION = F16;  }
+
+###spi_pins--------------------------------------------------
+set_pin_assignment {spi_mosi} { LOCATION = E8;  }
+set_pin_assignment {spi_miso} { LOCATION = A14;  }
+set_pin_assignment {spi_clk} { LOCATION = C8;  }
+set_pin_assignment {spi_cs_0} { LOCATION = B8;  }
+set_pin_assignment {spi_cs_1} { LOCATION = B6;  }
+
+###it8951_pins--------------------------------------------------
+set_pin_assignment {it8951_reset} { LOCATION = A6;  }
+set_pin_assignment {it8951_ready} { LOCATION = D8;  }
+
+###switch_pins----------------------------------------------
+set_pin_assignment {switch_port[15]} { LOCATION = R15;  }
+set_pin_assignment {switch_port[14]} { LOCATION = T15;  }
+set_pin_assignment {switch_port[13]} { LOCATION = R14;  }
+set_pin_assignment {switch_port[12]} { LOCATION = T14;  }
+set_pin_assignment {switch_port[11]} { LOCATION = N9;  }
+set_pin_assignment {switch_port[10]} { LOCATION = P9;  }
+set_pin_assignment {switch_port[9]} { LOCATION = R9;  }
+set_pin_assignment {switch_port[8]} { LOCATION = N8;  }
+set_pin_assignment {switch_port[7]} { LOCATION = P8;  }
+set_pin_assignment {switch_port[6]} { LOCATION = N6;  }
+set_pin_assignment {switch_port[5]} { LOCATION = P6;  }
+set_pin_assignment {switch_port[4]} { LOCATION = M6;  }
+set_pin_assignment {switch_port[3]} { LOCATION = T6;  }
+set_pin_assignment {switch_port[2]} { LOCATION = T5;  }
+set_pin_assignment {switch_port[1]} { LOCATION = R5;  }
+set_pin_assignment {switch_port[0]} { LOCATION = T4;  }
+
+###button_pins--------------------------------------------------
+set_pin_assignment {button_port[4]} { LOCATION = L12;  }
+set_pin_assignment {button_port[3]} { LOCATION = J13;  }
+set_pin_assignment {button_port[2]} { LOCATION = H14;  }
+set_pin_assignment {button_port[1]} { LOCATION = G12;  }
+set_pin_assignment {button_port[0]} { LOCATION = G11;  }
+
+###led_pins--------------------------------------------------
+set_pin_assignment {led_port[15]} { LOCATION = T13;  }
+set_pin_assignment {led_port[14]} { LOCATION = T12;  }
+set_pin_assignment {led_port[13]} { LOCATION = R12;  }
+set_pin_assignment {led_port[12]} { LOCATION = M7;  }
+set_pin_assignment {led_port[11]} { LOCATION = T9;  }
+set_pin_assignment {led_port[10]} { LOCATION = T8;  }
+set_pin_assignment {led_port[9]} { LOCATION = T7;  }
+set_pin_assignment {led_port[8]} { LOCATION = R7;  }
+set_pin_assignment {led_port[7]} { LOCATION = P5;  }
+set_pin_assignment {led_port[6]} { LOCATION = N5;  }
+set_pin_assignment {led_port[5]} { LOCATION = P4;  }
+set_pin_assignment {led_port[4]} { LOCATION = M5;  }
+set_pin_assignment {led_port[3]} { LOCATION = N4;  }
+set_pin_assignment {led_port[2]} { LOCATION = N3;  }
+set_pin_assignment {led_port[1]} { LOCATION = M4;  }
+set_pin_assignment {led_port[0]} { LOCATION = M3;  }
